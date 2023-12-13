@@ -1,0 +1,180 @@
+/**************************************/
+/* Meals Section Styles */
+/**************************************/
+
+.meals-and-diet-list-section {
+  padding: 9.6rem 0rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.meals-headings-container {
+  text-align: center;
+}
+
+.meals-subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.meals-secondary-heading {
+  color: #333;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-bottom: 9.6rem;
+}
+
+.meals-and-diet-list-container {
+  padding: 0 3.2rem;
+
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+
+  transform: translateY(-1.2rem);
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: o.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 10rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+}
+
+.tag1 {
+  background-color: #51cf66;
+}
+
+.tag2 {
+  background-color: #ffd43b;
+}
+
+.meal-title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/**************************************/
+/* Diet list Section Styles */
+/**************************************/
+
+.diet-list-heading {
+  color: #333;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.diet-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.diet-list-item {
+  font-size: 1.8em;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.diet-list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.all-recipes {
+  padding: 0 3.2rem;
+  margin-top: 4.8rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.recipes-link:link,
+.recipes-link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s;
+}
+
+.recipes-link:hover,
+.recipes-link:active {
+  color: #cf711f;
+  border-bottom: 0.1rem solid transparent;
+}

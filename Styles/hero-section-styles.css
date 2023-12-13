@@ -1,0 +1,111 @@
+/******************************/
+/* Hero Section Styles */
+/******************************/
+
+.hero-section {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-primary-heading {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.hero-btn-1st:link,
+.hero-btn-1st:visited {
+  background-color: #e67e22;
+  color: #fff;
+  margin-right: 1.6rem !important;
+}
+
+.hero-btn-1st:active,
+.hero-btn-1st:hover {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.hero-btn-2nd:link,
+.hero-btn-2nd:visited {
+  background-color: #fff;
+  color: #333;
+}
+
+.hero-btn-2nd:active,
+.hero-btn-2nd:hover {
+  background-color: #fdf2e9;
+  color: #333;
+  /* Instead of using bordeer property we will use Box Shadowing property to add Broder inside of the Button 
+    border: 0.3rem solid #fff; */
+  box-shadow: 0 0 0 0.3rem #fff;
+}
+
+.hero-customers {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.hero-delivered-imgs {
+  display: flex;
+}
+
+.hero-delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 0.3rem solid #fdf2e9;
+}
+
+.hero-delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.hero-delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.hero-delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
